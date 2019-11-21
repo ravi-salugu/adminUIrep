@@ -1,0 +1,11 @@
+<a routerLink="/">go back</a>
+<h2>Add New Bike</h2>
+<form id="formNewBike" name="formNewBike" #productData="ngForm" (ngSubmit)="addNewBike(productData.value)">
+    <label>Reg.No</label><input type="text" name="regno" id="regno" placeholder="regno" ngModel><br>
+    <label>Comments</label><input type="text" name="comments" id="comments" placeholder="comments" ngModel><br>
+    <label>Station</label><input type="text" name="station" id="station" placeholder="station" ngModel><br>
+    <input type="submit" value="Add Bike">
+
+</form>
+<br>
+<h3 *ngIf="isAdded">{{confirmationString}}</h3>

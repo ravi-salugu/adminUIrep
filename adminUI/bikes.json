@@ -1,0 +1,30 @@
+{
+    "bikes":[
+        {"no": 1,
+         "availability": "Hydrogen", 
+         "regno": 1453, 
+         "comments": "H",
+         "station": "afga"
+        },
+        {"no": 2,
+            "availability": "Hydrogen", 
+            "regno": 1534, 
+            "comments": "H",
+            "station": "afga"
+        },
+        {"no": 3,
+            "availability": "Hyd", 
+            "regno": 19, 
+            "comments": "H",
+            "station": "dadfga"
+        },
+        {"no": 4,
+            "availability": "vydrogen", 
+            "regno": 12, 
+            "comments": "Had",
+            "station": "afgsaa"
+        }
+
+        
+    ]
+}
